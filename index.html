@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content=
+"width=device-width, initial-scale=1.0">
+    <head>
+      <title>Dynamic Graphics</title>
+        <link href="style.css" rel="stylesheet" type="text/css">  <!-- Current directory -->
+    </head>
+    <body>
+       <!-- <div class="loader_bg">
+            <div class="loader"></div>
+            </div> -->
+<div class="banner">
+    
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+
+        </ul>
+    </div>
+    <div class="content" style="text-align: left; margin-top: 40px; ">
+            <h1>Dynamic <br> Graphics </h1>           
+            <p style="margin-left: 30px;margin-bottom: -20px; font-size: 23px;">Graphics that are always new to help, <br> keep your business young</p>
+        <button style="margin-left: 30px; font-size: 14px " type="button" ><span></span>Instagram</button>
+            <button ><a  class="button" type="button" target="_blank" href="mailto:dynamicgraphics7@gmail.com" ><span></span>Email</a></button>
+        </div>
+<div>
+    <img src="logo.png" class="logoimg">
+</div>
+
+<section id="aboutUsBanner">
+    <div class="aboutUsBanner">
+        <img src="selfie.jpg" class="aboutUsSelfie" style="margin-top: 70px;">
+      <p> Our group is based out of Lamar High School. Our goal is to provide nonprofits, upstarts, <br>
+                    small/local businesses, or anyone who aims to improve or educate the greater Houston area with digital content. <br> 
+                    We have organized students with an aptitude and aspiration in creating digital graphics. We aim to help the <br>
+                    community by providing our serivce competlely free of charge and open to anyone. We want to work with you, <br> 
+                    so please reach out and contact us.<br>
+                </p>
+        </div>
+    </section>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>    
+setTimeout(function(){
+        $('.loader_bg').fadeToggle();
+    },1500);
+    const title= document.getElementById("title");
+    title.addEventListener("mouseover",function(){
+      title.classList.add("hover");
+
+    });
+    title.addEventListener("mouseout",function(){
+      title.classList.remove("hover");
+  });
+</script> 
+        
+</body>       
+</html> 
+
+
