@@ -80,12 +80,18 @@ body{
 
 }
 .navbar{
-    padding: 30px 0;
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
     display: flex;
-    align-items: left;
-    word-spacing: 50px;
-    position: absolute;
-    width: 80%; 
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 120px;
+    cursor:pointer;
+    margin-left: -20px;
 
 }
 .navbar ul li{
@@ -102,7 +108,7 @@ body{
 .navbar ul li::after{
     content: '';
     height: 3px;
-    width: 0;
+    width: 0%;
     background: #fff;
     position: absolute;
     left: 0;
@@ -121,6 +127,9 @@ body{
     overflow: hidden;
     border-bottom: 5px solid rgba(255, 255, 255, 0);
     animation: animate 5s linear forwards;
+    text-align: left; 
+    margin-top: 40px; 
+    margin-left: 100px;
 
 }
 .content h1{
@@ -183,12 +192,11 @@ button span{
     bottom: 0;
     z-index: -1;
     transition: 0.5s;
+    background: #45a49d;
 
 }
 button:hover button span{
     width: 100%;
-    
-
 
 }
 a, a:hover, a:focus, a:active {
@@ -218,10 +226,9 @@ a, a:hover, a:focus, a:active {
     background-size: cover; 
     background-position: center;
     float:left; 
-    margin-left: 50px; 
-    margin-top: 90px; 
+    margin-top: 70px; 
     font-size: 20px;
-    
+    text-align: center;
 }
 .aboutUsSelfie{
     height:300px; 
@@ -229,13 +236,6 @@ a, a:hover, a:focus, a:active {
      margin-left: 50px; 
      border: 10px solid #000000; 
      margin-bottom: -50px;;
-}
-
-.title{
-  transition:all 0.5s;
-}
-.title::after{
-    animation:slide-left .5s cubic-bezier(.25,.46,.45,.94) both
 }
 
   .loader_bg{
@@ -284,7 +284,30 @@ a, a:hover, a:focus, a:active {
     }
 }
     .logoimg{
-        height:500px; 
+        height: 500px; 
         float: right; 
-        margin-top: 160px;
+}
+.large-text{
+    font-weight: 100;
+    font-size: 1.57em;
+    line-height: 1.5em;
+    margin: 30px 0px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.headline-container {
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+    .headline-container h2 {
+        max-width: 600px;
+        margin: 0px auto;
+    }
+
+.headline-lines {
+    width: 20%;
+    height: 2px;
+    background: #272b2d;
+    margin: 20px auto;
 }
