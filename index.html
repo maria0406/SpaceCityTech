@@ -47,14 +47,15 @@
                     so please feel free to contact us.
                 </p>
                  <a class="center-btn"style="color: aliceblue; " href="https://bank.hackclub.com/donations/start/dynamic-graphics">Donate</a>
-        </div>
+                </div>
     </section>
     <section id="OurTeam">
         <div class="OurTeam">
             <div class="headline-container">
                 <div class="headline-lines"></div>
-                <h2>Our Team</h2>
+                <h2 class="text-center" style="font-family: serif;">Our Team</h2>
                 <div class="headline-lines"></div>
+                </div>
                 <div class="hero">
                 <div class="container">
                     <div class="indicator">
@@ -65,64 +66,52 @@
                     <div class="teamshots">
                     <div class="slide-row" id="slide">
                         <div class="slide-col">
-                            <div class="user-tex">
+                            <div class="user-text">
                                 <p>
                                     Maria Cruz is a Junior at Lamar High School. 
                                     She started Dynamic Grahpcs 
                                     because she is passionate about coding 
                                     and helping her community. 
-                                    <h3>Maria Cruz</h3>
+                                    </h3> Maria Cruz</h3>
                                     <p>Dynamic Graphics CEO</p>
                                 </p>
                             </div>
                             <div class="user-img">
                                 <img src="testing.png" alt="profile">
-    
                             </div>
                         </div>
                         <div class="slide-col">
-                    <div class="user-tex">
-                        <p>
-                            Soumil Goyal is a Junior at Lamar High School. 
-                            She started Dynamic Grahpcs 
-                            because she is passionate about coding 
-                            and helping her community. 
-                            <h3> Soumil Goyal</h3>
-                            <p>Dynamic Grpahics Vice Vice-President</p>
-                        </p>
-                    </div>
-                        
-                    <div class="user-img">
-                        <img src="testing.png" alt="profile">
-                    </div>
+                            <div class="user-text">
+                                <p>
+                                    Maria Cruz is a Junior at Lamar High School. 
+                                    She started Dynamic Grahpcs 
+                                    because she is passionate about coding 
+                                    and helping her community. 
+                                    </h3> Maria Cruz</h3>
+                                    <p>Dynamic Graphics CEO</p>
+                                </p>
+                            </div>
+                            <div class="user-img">
+                                <img src="testing.png" alt="profile">
+                            </div>
                         </div>
                         <div class="slide-col">
-    
-                        <div class="user-tex">
-                            <p>
-                                Sydney Varner is a Junior at Lamar High School. 
-                                She joined Dynamic Grahpcs 
-                                because she is passionate about coding 
-                                and helping her community. 
-                                <h3> Sydney Varenr</h3>
-                                <p>Dynamic Grpahics Deisgn Consultant</p>
-                            </p>
-                        </div>
-                        <div class="user-img">
-                            <img src="testing.png" alt="profile">
-        
+                            <div class="user-text">
+                                <p>
+                                    Maria Cruz is a Junior at Lamar High School. 
+                                    She started Dynamic Grahpcs 
+                                    because she is passionate about coding 
+                                    and helping her community. 
+                                    </h3> Maria Cruz</h3>
+                                    <p>Dynamic Graphics CEO</p>
+                                </p>
+                            </div>
+                            <div class="user-img">
+                                <img src="testing.png" alt="profile">
+                            </div>
                         </div>
                     </div>
-                </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-            </div>
-        </div>
-            </div>
-            </div>
+                        
 
         </section>
     
@@ -130,13 +119,13 @@
 var btn = document.getElementsByClassName("btn");
 var slide = document.getElementById("slide");
 
-btn[0].onClick=function(){
+btn[0].onclick=function(){
     slide.style.transform="translateX(0px)";
 }
-btn[1].onClick=function(){
+btn[1].onclick=function(){
     slide.style.transform="translateX(-800px)";
 }
-btn[2].onClick=function(){
+btn[2].onclick=function(){
     slide.style.transform="translateX(-1600px)";
 }
 /*btn[3].onClick=function(){
@@ -148,7 +137,20 @@ btn[4].onClick=function(){
 btn[5].onClick=function(){
     slide.style.transform="translateX(-4000px)";
 }*/
+function myFunction() {
+  // Get the text field
+  var copyText = document.getElementById("myInput");
 
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+   // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+
+  // Alert the copied text
+  alert("Copied the text: " + copyText.value);
+}
 </script> 
         
 </body>       

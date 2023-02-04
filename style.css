@@ -284,7 +284,7 @@ a, a:hover, a:focus, a:active {
     font-size: 39px;
 }
 .center-btn {
-  background-color: #45a49d;
+  background-color:  #38c6bd;
   border: 2px solid #111;
   border-radius: 8px;
   box-sizing: border-box;
@@ -308,7 +308,7 @@ a, a:hover, a:focus, a:active {
   justify-content: center;
   align-items: center;
   margin-left: 600px;
-  margin-right: -600px;
+  margin-right: -500px;
   
 }
 
@@ -370,8 +370,8 @@ a, a:hover, a:focus, a:active {
     height: 100%;
     border-radius: 10px;
 }
-.user-tex{
-    background: rgb(0, 0, 0);
+.user-text{
+    background: #38c6bd;
     width: 420px;
     height: 200px;
     position: absolute;
@@ -379,17 +379,18 @@ a, a:hover, a:focus, a:active {
     top: 50;
     transform: translateY(-50%);
     border-radius: 10px;
-    color: #ffffff;
+    color: #000000;
     pad: 450x;
     box-sizing: border-box;
     z-index: 2;
     margin-top: 200px;
     text-align: left;
+    font-family: serif;
 }
 .user-tex p{
     font-size: 21px;
     line-height: 24px;
-    text-align: left;
+    
 
 }
 .user-tex h3{
@@ -420,8 +421,9 @@ a, a:hover, a:focus, a:active {
     width: 15px;
     margin: 4px;
     border-radius: 15px;
-    background: rgb(0, 0, 0);
+    background: #38c6bd;
     cursor: pointer;
+    transition: o.5s;
 }
 .active{
     width: 45px;
