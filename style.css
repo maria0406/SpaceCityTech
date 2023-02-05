@@ -141,42 +141,7 @@ body{
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
-}
-button{
-    text-decoration: none !important;
-    width: 200px;
-    padding: 15px 0;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid rgb(0, 0, 0);
-    background: transparent;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    overflow: hidden;
-    font-family: serif;
-    margin-left: 100px;
-    margin-top:40px;
-    justify-content: center;
-}
-button span{
-    height: 100%;
-    width: 0;
-    border-radius: 25px;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
-    background: #45a49d;
 
-}
-button:hover button span{
-    width: 100%;
-
-}
-a, a:hover, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
 }
 .aboutUsContent{
     width: 100%;
@@ -201,9 +166,8 @@ a, a:hover, a:focus, a:active {
     background-size: cover; 
     background-position: center;
     float:left; 
-    margin-top: 70px; 
+    margin-top: 25px; 
     font-size: 20px;
-    text-align: center;
 }
     .logoimg{
         height: 500px; 
@@ -216,24 +180,23 @@ a, a:hover, a:focus, a:active {
     font-size: 24px;
     line-height: 1.5em;
     margin: 30px 0px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-top:80px;
+    margin-left: 50px;
     font-family: serif;
 
 }
 .headline-container {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-top: 5px;
     
 }
-
-    .headline-container h2 {
+ .headline-container h2 {
         max-width: 600px;
         margin: 0px auto;
         font-family: serif;
         font-weight: 100;
 
-    }
+  }
 
 .headline-lines {
     width: 20%;
@@ -259,68 +222,6 @@ a, a:hover, a:focus, a:active {
     text-align: center;
     font-family: serif;
     font-size: 39px;
-}
-.center-btn {
-  background-color:  #38c6bd;
-  border: 2px solid #111;
-  border-radius: 8px;
-  box-sizing: border-box;
-  color: rgb(0, 0, 0);
-  cursor: pointer;
-  font-family: serif;
-  font-size: 16px;
-  height: 48px;
-  line-height: 24px;
-  width: 200px;
-  padding: 0 25px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  font-weight: bold;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 600px;
-  margin-right: -500px;
-  
-}
-
-.center-btn:after {
-  background-color: rgb(0, 0, 0);
-  border-radius: 8px;
-  content: "";
-  display: block;
-  height: 48px;
-  left: 0;
-  width: 100%;
-  position: absolute;
-  top: -2px;
-  transform: translate(8px, 8px);
-  transition: transform .2s ease-out;
-  z-index: -1;
-}
-
-.center-btn:hover:after {
-  transform: translate(0, 0);
-}
-
-.center-btn:active {
-  background-color: #000000;
-  outline: 0;
-}
-
-.center-btn:hover {
-  outline: 0;
-}
-
-@media (min-width: 768px) {
-  .center-btn {
-    padding: 0 40px;
-  }
 }
 .hero{
     height: 100vh;
@@ -363,19 +264,20 @@ a, a:hover, a:focus, a:active {
     margin-top: 200px;
     text-align: left;
     font-family: serif;
+   
 }
-.user-tex p{
-    font-size: 15px;
+.user-text p{
+    font-size: 21px;
     line-height: 24px;
-    
-
+    font-family: serif;
 }
-.user-tex h3{
+.user-text h3{
     text-align: left;
     font-size: 21px;
     line-height: 24px;
     text-align: left;
     margin-left: 10px;
+    color: rgb(59, 59, 59);
 
 }
 .container{
@@ -449,4 +351,132 @@ svg text {
     cursor: pointer;
     transition: o.5s;
   }
- 
+  .button {
+    appearance: button;
+    background-color: #000;
+    background-image: none;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-bottom: 150px;
+  }
+  
+  .button:focus {
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    text-decoration: none;
+  }
+  
+  .button:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .button:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button {
+      padding: 12px 50px;
+    }
+  }
+ .text-left{
+    text-align: left;
+    font-family: serif;
+    font-size: 39px;
+ }
+  
+  #heart {
+      width: 200px;
+      height: 180px;
+      animation: heartbeat 1s infinite;
+      margin:0 auto
+  }
+  #heart:before,
+  #heart:after {
+      position: absolute;
+      content: "";      
+      left: 50px;
+      top: 0;
+      width: 50px;
+      height: 80px;
+      background: rgb(0, 0, 0);
+      -moz-border-radius: 50px 50px 0 0;
+      border-radius: 50px 50px 0 0;
+      -webkit-transform: rotate(-45deg);
+         -moz-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+           -o-transform: rotate(-45deg);
+              transform: rotate(-45deg);
+      -webkit-transform-origin: 0 100%;
+         -moz-transform-origin: 0 100%;
+          -ms-transform-origin: 0 100%;
+           -o-transform-origin: 0 100%;
+              transform-origin: 0 100%;
+  }
+  #heart:after {
+      left: 0;
+      -webkit-transform: rotate(45deg);
+         -moz-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+           -o-transform: rotate(45deg);
+              transform: rotate(45deg);
+      -webkit-transform-origin: 100% 100%;
+         -moz-transform-origin: 100% 100%;
+          -ms-transform-origin: 100% 100%;
+           -o-transform-origin: 100% 100%;
+              transform-origin :100% 100%;
+  }
+  
+  
+  
+  @keyframes heartbeat
+  {
+    0%
+    {
+      transform: scale( .75 );
+    }
+    20%
+    {
+      transform: scale( 1 );
+    }
+    40%
+    {
+      transform: scale( .75 );
+    }
+    60%
+    {
+      transform: scale( 1 );
+    }
+    80%
+    {
+      transform: scale( .75 );
+    }
+    100%
+    {
+      transform: scale( .75 );
+    }
+  }
