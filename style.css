@@ -499,6 +499,7 @@ svg text {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
   }
   footer .social_icon,
   footer .menu{
