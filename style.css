@@ -490,4 +490,58 @@ svg text {
       background-position-x:1000px ;
     }
   }
-  
+.contact-title{
+  margin-top: 100px;
+  color: #000000;
+  transition: all 4s ease-in-out;
+  margin-left: 100px;
+  background-color: #38c6bd;
+  border-radius:50%;
+}
+.contact-title h1{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 51px;
+}
+.contact-title h2{
+  font:51px; 
+  margin: 10px; 
+  line-height: 2.0;
+  font-family:Serif;
+  text-decoration: none !important;
+
+}
+form{
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+  margin-left: 100px;
+}
+.form-control{
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+input{
+  height: 45px;
+}
+form .submit{
+  background: #000000;
+  border-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+form .submit:hover{
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+}
