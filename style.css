@@ -523,7 +523,7 @@ form{
   border: none;
   outline: none;
   border-bottom: 1px solid rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 18px;
   margin-bottom: 16px;
 }
@@ -533,7 +533,7 @@ input{
 form .submit{
   background: #000000;
   border-color: transparent;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 2px;
