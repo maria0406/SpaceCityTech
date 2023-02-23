@@ -8,7 +8,7 @@ $name = $_POST['name'];
 $visitor_email = $_POST['email'];
 $message = $_POST['message'];
 
-$email_from = 'dynacimgraphics7@gmail.com';
+$email_from = 'dynamicgraphics7@gmail.com';
 $email_subject = "New Form Submission";
 $email_body = "User Name: $name.\n".
               "User Email: $visitor_email.\n".  
