@@ -210,21 +210,6 @@ margin-left: 180px;
     font-family: serif;
     font-size: 39px;
 }
-.hero{
-    height: 100vh;
-    width: 100%;
-    position: relative;
-}
-.slide-row{
-    display: flex;
-    width: 3200px;
-    transition: 0.5s;
-}
-.slide-col{
-    width: 800px;
-    height: 400px;
-    position: relative;
-}
 .user-img{
     position: absolute;
     top:0;
@@ -280,16 +265,6 @@ margin-left: 180px;
     left: 50%;
     transform: translateX(-50%);
     bottom: -50px
-}
-.btn{
-    display: inline-block;
-    height: 15px;
-    width: 15px;
-    margin: 4px;
-    border-radius: 15px;
-    background: #94DEEB;
-    cursor: pointer;
-    transition: o.5s;
 }
 .teamshots{
     width: 100%;
