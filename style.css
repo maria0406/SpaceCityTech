@@ -584,5 +584,10 @@ svg text {
 .about{
   height: 240px;
   padding: 0px 20px;
+}
+.teamphoto{
+  width: 80%;
+  float: center;
+  margin-left: 140px;
 
 }
