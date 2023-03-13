@@ -2,10 +2,11 @@
 <html lang="en">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <head>
-    <title>Dynamic Graphics</title>
-    <link href="style.css" rel="stylesheet" type="text/css"> 
-    <link  rel="icon" type="image/png" src="logosmall.png"/>
+    <title>Space City Tech</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" src="logosmall.png" />
 </head>
 <div class="banner3">
     <div class="navbar">
@@ -14,77 +15,96 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="OurTeam.html">Our Team</a></li>
-            <li><a href="https://bank.hackclub.com/donations/start/dynamic-graphics">Donate</a></li>
-            <li><a href="contact.html">Hack-a-thon</a></li>
+            <li><a href="https://bank.hackclub.com/donations/start/space-city-tech">Donate</a></li>
+            <li><a href="hackathon.html">Hack-a-thon</a></li>
 
         </ul>
     </div>
-    <svg width="100%" height="100%">   
+    <svg width="100%" height="100%">
         <text class="text2" x="30%" y="30%" text-anchor="center">Our Team</text>
     </svg>
-<body>
-<div class="teamImage-container" style="margin-top: -100px;">
-<div class="teamImage" onclick="fetch_info(0)"><img class="imageCircle"src="testing.jfif"></div>
-<div class="teamImage" onclick="fetch_info(1)"><img class="imageCircle"src="EEBS.jpg"></div>
-<div class="teamImage" onclick="fetch_info(2)"><img class="imageCircle"src="testing.jfif"></div>
-<div class="teamImage" onclick="fetch_info(3)"><img class="imageCircle"src="testing.jfif"></div>
-<div class="teamImage" onclick="fetch_info(4)"><img class="imageCircle"src="testing.jfif"></div>
-</div>
-<div class="info-container">
-    <img class="profile" id="profile"src="testing.jfif">
-<div class="info">
-    <h1 class="name" id="name">Maria Cruz</h1>
-    <h3 class="status" id="status">Chief Executive Officer at Dynamic Graphics</h3>
-    <p class="about" id="about">
-        Maria Cruz is a Junior at Lamar High School. She started Dynamic Grahpics because she is 
-        passionate about coding and helping her community.
-    </p>
-</div>
-</div>
 
-<section id="footer" >
-<div class="footer"> 
-<footer>
-<div class="waves" >
-<div class="wave" id="wave1"></div>
-<div class="wave" id="wave2"></div>
-<div class="wave" id="wave3"></div>
-<div class="wave" id="wave4"></div>
-</div>
-  <ul class="social_icon">
-    <li><a href="mailto:dynamicgraphics7@gmail.com"><ion-icon name="mail-outline"></ion-icon></a></li>
-    <li><a href="https://github.com/maria0406"><ion-icon name="logo-github"></ion-icon></a></li>
-    <li><a href="https://bank.hackclub.com/donations/start/dynamic-graphics"><ion-icon name="heart-outline"></ion-icon></a></li>    
-  </ul>
-  <ul class="menu">
-    <li><a href ="index.html">Home</a></li>
-    <li><a href ="contact.html">Contact</a></li>
-    <li><a href ="contact.html">Our Team</a></li>
-    <li><a href ="https://bank.hackclub.com/donations/start/dynamic-graphics">Donate</a></li>
-  </ul>
-  <p>Dynamic Graphics is fiscally sponsored by Hack Club, a 501(c)(3) nonprofit. Our registered EIN is 81-2908499.</p>
-</footer>
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-                    
-<script>
-    function fetch_info(i){
-        let profile=["testing.jfif","EEBS.jpg","testing.jfif","testing.jfif","testing.jfif"];
-        let name=["Maria Cruz", "Ibraheem Razouki", "Syndey Varner", "Yoshitaka Ren", "Diego Cardenas"]
-        let status=["Chief Executive Officer at Dynamic Graphics","Chief Operations & Strategy Officer","Chief Marketing & Creativity Officer","Chief Finance & Technology Officer","Chief Operations & Information Officer" ]
-        let about=[" Maria Cruz is a Junior at Lamar High School. She started Dynamic Graphics because she is passionate about coding and helping her community."
-        ,"Ibraheem Razouki is a driven and passionate student currently at Lamar who is exceptionally skilled and eager to work with others. He has excelled in all his endevors and is ready to work with anyone. Learn more about Ibraheem on his linkedin. (https://www.linkedin.com/in/ibraheem-razouki-603503240?trk=public_profile_browsemap)"
-        ,"Chief Operations Officer"
-        ,"Chief Operations Officer"
-        ,"Chief Operations Officer" ]
+    <body>
+        <div class="teamImage-container" style="margin-top: -100px;">
+            <div class="teamImage" onclick="fetch_info(0)"><img class="imageCircle" src="testing.jfif"></div>
+            <div class="teamImage" onclick="fetch_info(1)"><img class="imageCircle" src="EEBS.jpg"></div>
+            <div class="teamImage" onclick="fetch_info(2)"><img class="imageCircle" src="testing.jfif"></div>
+            <div class="teamImage" onclick="fetch_info(3)"><img class="imageCircle" src="testing.jfif"></div>
+            <div class="teamImage" onclick="fetch_info(4)"><img class="imageCircle" src="testing.jfif"></div>
 
-        document.getElementById("profile").src=profile[i];
-        document.getElementById("name").innerHTML=name[i];
-        document.getElementById("status").innerHTML=status[i];
-        document.getElementById("about").innerHTML= about[i];
 
-    }
-</script>
+        </div>
+        <div class="teamImage-container" style="margin-top: 100px;">
+            <div class="teamImage" onclick="fetch_info(5)"><img class="imageCircle" src="testing.jfif"></div>
+            <div class="teamImage" onclick="fetch_info(6)"><img class="imageCircle" src="testing.jfif"></div>
+            <div class="teamImage" onclick="fetch_info(7)"><img class="imageCircle" src="testing.jfif"></div>
+            <div class="teamImage" onclick="fetch_info(8)"><img class="imageCircle" src="testing.jfif"></div>
 
-</body>
+
+        </div>
+        <div class="info-container">
+            <img class="profile" id="profile" src="testing.jfif">
+            <div class="info">
+                <h1 class="name" id="name">Maria Cruz</h1>
+                <h3 class="status" id="status">Chief Executive Officer at Dynamic Graphics</h3>
+                <p class="about" id="about">
+                    Maria Cruz is a Junior at Lamar High School. She started Dynamic Grahpics because she is
+                    passionate about coding and helping her community.
+                </p>
+            </div>
+        </div>
+
+        <section id="footer">
+            <div class="footer">
+                <footer>
+                    <div class="waves">
+                        <div class="wave" id="wave1"></div>
+                        <div class="wave" id="wave2"></div>
+                        <div class="wave" id="wave3"></div>
+                        <div class="wave" id="wave4"></div>
+                    </div>
+                    <ul class="social_icon">
+                        <li><a href="mailto:dynamicgraphics7@gmail.com"><ion-icon name="mail-outline"></ion-icon></a>
+                        </li>
+                        <li><a href="https://github.com/maria0406"><ion-icon name="logo-github"></ion-icon></a></li>
+                        <li><a href="https://bank.hackclub.com/donations/start/space-city-tech"><ion-icon
+                                    name="heart-outline"></ion-icon></a></li>
+                    </ul>
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.html">Our Team</a></li>
+                        <li><a href="https://bank.hackclub.com/donations/start/space-city-tech">Donate</a></li>
+                    </ul>
+                    <p>Dynamic Graphics is fiscally sponsored by Hack Club, a 501(c)(3) nonprofit. Our registered EIN is
+                        81-2908499.</p>
+                </footer>
+                <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+                <script>
+                    function fetch_info(i) {
+                        let profile = ["testing.jfif", "EEBS.jpg", "testing.jfif", "testing.jfif", "testing.jfif","testing.jfif","testing.jfif","testing.jfif","testing.jfif"];
+                        let name = ["Maria Cruz", "Ibraheem Razouki", "Syndey Varner", "Yoshitaka Ren", "Diego Cardenas", "Griffin Schultz", "Kathryn Stansell", "Marcus Azuaje", "Ellery smt"]
+                        let status = ["Chief Executive Officer at Dynamic Graphics", "Chief Operations & Strategy Officer", "Chief Marketing & Creativity Officer", "Chief Finance & Technology Officer", "Chief Operations & Information Officer","Chief Fundraising & Organizing Manager", "Cheif Social Media Manager","Chief Social Media Operator","Chief Junior Operator"]
+                        let about = [" Maria Cruz is a Junior at Lamar High School. She started Dynamic Graphics because she is passionate about coding and helping her community."
+                            , "Ibraheem Razouki is a driven and passionate student currently at Lamar who is exceptionally skilled and eager to work with others. He has excelled in all his endevors and is ready to work with anyone. Learn more about Ibraheem on his linkedin. (https://www.linkedin.com/in/ibraheem-razouki-603503240?trk=public_profile_browsemap)"
+                            , "Chief Operations Officer"
+                            , "Chief Operations Officer"
+                            , "Chief Operations Officer"
+                            , "Chief Operations Officer"
+                            , "Chief Operations Officer"
+                            ,"Cheif Operations Officer"
+                            , "Chief Junior Operator"]
+
+                        document.getElementById("profile").src = profile[i];
+                        document.getElementById("name").innerHTML = name[i];
+                        document.getElementById("status").innerHTML = status[i];
+                        document.getElementById("about").innerHTML = about[i];
+
+                    }
+                </script>
+
+    </body>
+
 </html>

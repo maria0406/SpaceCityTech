@@ -541,6 +541,7 @@ svg text {
   align-items: center;
   box-shadow: #000;
 }
+
 .teamImage :hover{
   border: 3px solid #ffffff;
 }
