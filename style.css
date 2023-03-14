@@ -169,20 +169,26 @@ body {
 .logoimg {
   height: 500px;
   float: center;
-  margin-top: -430px;
-  margin-left: 400px;
+  align-items: center;
   opacity: 20%;
 
+}
+.center{
+  width: 100vh;
+  height: 95vh;
+  margin-top: -430px;
+  margin-left: 400px;
+}
+.center2{
+  margin-top: -500px;
+  margin-left: 400px;
 }
 
 .logoimg2 {
   height: 500px;
   float: center;
   align-items: center;
-  margin-top: -950px;
   opacity: 20%;
-  margin-left: 400px;
-
 }
 
 .large-text {
@@ -677,9 +683,9 @@ footer .wave#wave4 {
   float: left;
   justify-content: center;
   align-items: center;
-  background: #94DEEB;
+  background: rgba(2, 45, 61, 255);
   margin-top: 50px;
   margin-left: 30px;
   border-radius: 5px;
-
+  color: #ffffff;
 }
