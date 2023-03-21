@@ -23,14 +23,11 @@ p {
   line-height: 2.0;
   font-family: Serif;
   text-decoration: none !important;
-
-
 }
 
 body {
   font-family: serif;
   min-height: 100vh;
-
 }
 
 * {
@@ -58,7 +55,6 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(download.jfif);
   background-size: cover;
   background-position: center;
-
 }
 
 .banner3 {
@@ -67,7 +63,6 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(download.jfif);
   background-size: cover;
   background-position: center;
-
 }
 
 .navbar {
@@ -78,13 +73,11 @@ body {
   align-items: center;
   justify-content: space-between;
   font-family: serif;
-
 }
 
 .logo {
   width: 150px;
   cursor: pointer;
-
 }
 
 .navbar ul li {
@@ -182,10 +175,8 @@ body {
   align-items: center;
   height: 80%;
   opacity: 20%;
-
   justify-content: center;
   float: center;
-  align-items: center;
   margin-top: -150px;
 }
 
