@@ -46,14 +46,8 @@ body {
   background-position: center;
 
 }
-.banner img{
-  justify-content: center;
-  float: center;
-  align-items: center;
-  height: 60%;
-  margin-top: -150px;
-}
-.bannercontainer{
+
+.bannercontainer {
   width: 100%;
   height: 95vh;
 }
@@ -182,27 +176,41 @@ body {
   align-items: center;
   height: 60%;
 }
+
 .logoimg1 {
   float: center;
   align-items: center;
   height: 100%;
   opacity: 20%;
+
+  justify-content: center;
+  float: center;
+  align-items: center;
+  height: 60%;
+  margin-top: -150px;
 }
-.center{
+
+.center {
   width: 100vh;
   height: 100vh;
 
 }
-.center2{
+
+.center2 {
   margin-top: -500px;
   margin-left: 400px;
 }
 
 .logoimg2 {
-  height: 80%;
+  height: 100%;
   float: center;
   align-items: center;
   opacity: 20%;
+  justify-content: center;
+  float: center;
+  align-items: center;
+  height: 60%;
+  margin-top: -150px;
 }
 
 .large-text {
