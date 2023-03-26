@@ -702,44 +702,48 @@ footer .wave#wave4 {
   border-radius: 5px;
   color: #ffffff;
 }
-@media all  and (max-width: 500px) {
+@media only screen and (max-width: 767px) {
   * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  h1 {
-    margin: 0;
-    padding: 0;
-    font-family: Serif;
-    text-align: left;
-    margin-left: 30px;
-    margin-top: 40px;
-    font-size: 100px;
-    text-decoration: none !important;
-    color: #000000;
-  
-  }
-  
-  p {
-    font: 32px;
-    margin: 10px;
-    line-height: 2.0;
-    font-family: Serif;
-    text-decoration: none !important;
-  }
-  
-  body {
-    font-family: serif;
-    min-height: 100vh;
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Serif;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 40px;
+  font-size: 100px;
+  text-decoration: none !important;
+  color: #000000;
+
+}
+
+p {
+  font: 32px;
+  margin: 10px;
+  line-height: 2.0;
+  font-family: Serif;
+  text-decoration: none !important;
+}
+
+body {
+  font-family: serif;
+  min-height: 100vh;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
 .banner {
   width: 100%;
   height: 95vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(download.jfif);
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url();
   background-size: cover;
   background-position: center;
 
@@ -751,23 +755,23 @@ footer .wave#wave4 {
 }
 
 .banner2 {
-  width: 100%;
+  width: 20%;
   height: 80vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(download.jfif);
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url();
   background-size: cover;
   background-position: center;
 }
 
 .banner3 {
-  width: 100%;
+  width: 20%;
   height: 60vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(download.jfif);
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url();
   background-size: cover;
   background-position: center;
 }
 
 .navbar {
-  width: 85%;
+  width: 20%;
   margin: auto;
   padding: 35px 0;
   display: flex;
@@ -816,7 +820,7 @@ footer .wave#wave4 {
   text-align: center;
   color: #fff;
   overflow: hidden;
-  border-bottom: 5px solid rgba(156, 81, 81, 0);
+  border-bottom: 5px solid rgba(255, 255, 255, 0);
   text-align: left;
   margin-top: 40px;
   margin-left: 100px;
@@ -836,7 +840,7 @@ footer .wave#wave4 {
 }
 
 .aboutUsContent {
-  width: 100%;
+  width: 20%;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -856,7 +860,7 @@ footer .wave#wave4 {
 }
 
 .aboutUsBanner {
-  width: 100%;
+  width: 20%;
   background-color: rgb(255, 255, 255);
   background-size: cover;
   background-position: center;
@@ -868,13 +872,13 @@ footer .wave#wave4 {
 .logoimg {
   float: center;
   align-items: center;
-  height: 60%;
+  height: 20%;
 }
 
 .logoimg1 {
   float: center;
   align-items: center;
-  height: 80%;
+  height: 20%;
   opacity: 20%;
   justify-content: center;
   float: center;
@@ -979,7 +983,7 @@ footer .wave#wave4 {
   top: 50;
   transform: translateY(-50%);
   border-radius: 10px;
-  color: #805050;
+  color: #000000;
   pad: 450x;
   box-sizing: border-box;
   z-index: 2;
@@ -1001,7 +1005,7 @@ footer .wave#wave4 {
   line-height: 24px;
   text-align: left;
   margin-left: 10px;
-  color: rgb(148, 98, 98);
+  color: rgb(59, 59, 59);
 
 }
 
@@ -1159,8 +1163,7 @@ footer {
   margin-top: 100px;
   position: relative;
   width: 100%;
-  background: black;
-  ;
+  background: rgb(145, 91, 91);
   min-height: 100px;
   padding: 20px 50px;
   display: flex;
