@@ -1364,7 +1364,7 @@ footer .wave#wave4 {
   float: left;
   justify-content: center;
   align-items: center;
-  background: rgba(0,0,0,0);
+  background: rgba(0,0,0);
   margin-top: 50px;
   margin-left: 30px;
   border-radius: 5px;
