@@ -702,7 +702,7 @@ footer .wave#wave4 {
   float: left;
   justify-content: center;
   align-items: center;
-  background: rgba(2, 45, 61, 255);
+  background: rgb(0, 0, 0);
   margin-top: 50px;
   margin-left: 30px;
   border-radius: 5px;
@@ -1158,12 +1158,6 @@ svg .text2 {
   transform: translate(2px, 2px);
 }
 
-@media (min-width: 768px) {
-  .button {
-    padding: 12px 50px;
-  }
-}
-
 .text-left {
   text-align: left;
   font-family: serif;
@@ -1271,47 +1265,6 @@ footer .wave#wave4 {
   bottom: 20px;
   animation: animateWave_02 3s linear infinite;
 }
-
-@keyframes animateWave {
-  0% {
-    background-position-x: 1000px;
-  }
-
-  100% {
-    background-position-x: 0px;
-  }
-}
-
-@keyframes animateWave_02 {
-  0% {
-    background-position-x: 0px;
-  }
-
-  100% {
-    background-position-x: 1000px;
-  }
-}
-
-@keyframes animateWave_03 {
-  0% {
-    background-position-x: 0px;
-  }
-
-  100% {
-    background-position-x: 1000px;
-  }
-}
-
-@keyframes animateWave_04 {
-  0% {
-    background-position-x: 0px;
-  }
-
-  100% {
-    background-position-x: 1000px;
-  }
-}
-
 .teamImage-container {
   display: flex;
   justify-content: center;
@@ -1411,7 +1364,7 @@ footer .wave#wave4 {
   float: left;
   justify-content: center;
   align-items: center;
-  background: rgba(2, 45, 61, 255);
+  background: rgba(0,0,0,0);
   margin-top: 50px;
   margin-left: 30px;
   border-radius: 5px;
