@@ -8,17 +8,17 @@
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     @include heading-font;
   }
   .navbar-brand {
-    color: white;
+    color: rgb(255, 255, 255);
     @include script-font;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken(lightgrey, 10%);
+      color: darken(rgb(0, 0, 0), 10%);
     }
   }
   .navbar-nav {
@@ -28,7 +28,7 @@
         font-weight: 400;
         padding: 0.75em 0;
         letter-spacing: 1px;
-        color: white;
+        color: rgb(0, 0, 0);
         @include heading-font;
         &.active,
         &:hover {
