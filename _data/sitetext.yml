@@ -52,7 +52,7 @@ en: &DEFAULT_EN
       - title: "Our HISD Chapter"
         year: "2022"
         desc: "Space City Tech began collaborating with several schools within the Houston Independent School District, including Frank Black Middle School, Lanier Middle School, and Lamar High School."
-        image: assets/img/timeline/2.jpg
+        image: assets/img/timeline/HISD.jpg
         alt:
       - title: "Jekyll Theme is created"
         year: "2019"
