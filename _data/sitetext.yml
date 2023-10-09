@@ -54,10 +54,10 @@ en: &DEFAULT_EN
         desc: "Space City Tech began collaborating with several schools within the Houston Independent School District, including Frank Black Middle School, Lanier Middle School, and Lamar High School."
         image: assets/img/timeline/HISD.jpg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
+      - title: "T-Mobile Changemaker Challenge"
+        year: "2023"
+        desc: "Space City Tech was nominated as a T-Mobile Changemaker finalist, and our team was rewarded with the opportunity to join our fellow Changemakers at the T-Mobile headquarters in Washington."
+        image: assets/img/timeline/tmobile.jpg
         alt: image alt text
       - title: "Title"
         year: "2009-2011"
