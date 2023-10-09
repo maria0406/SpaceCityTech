@@ -45,13 +45,13 @@ en: &DEFAULT_EN
     #start_align: "left"
     events:
       - title: "Our Humble Beginnings"
-        year: "2020"
-        desc: "In 2020 the inspiration for Space City Tech was born, and planning began. We began operating under Hack Club's fiscal sponsorship as a 501(c)(3) in the state of Texas."
+        year: "2021"
+        desc: "In 2021 the inspiration for Space City Tech was born, and planning began. We began operating under Hack Club's fiscal sponsorship as a 501(c)(3) in the state of Texas."
         image: assets/img/timeline/hackclub.png
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Our HISD Chapter"
+        year: "2022"
+        desc: "Space City Tech began collaborating with several schools within the Houston Independent School District, including Frank Black Middle School, Lanier Middle School, and Lamar High School."
         image: assets/img/timeline/2.jpg
         alt:
       - title: "Jekyll Theme is created"
