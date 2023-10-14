@@ -98,7 +98,7 @@ en: &DEFAULT_EN
     subtext: The enitre Space City Tech team is dedciated to break down barriers in STEM education through educating the minority community of Houston in computer science education at no cost. 
     section: team
     people:
-      - name: "Kay Garland"
+      - name: "Maria Cruz"
         role: "Founder"
         image: assets\img\team\Maria-Cruz(1).jpg"
         social:
@@ -108,7 +108,7 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
+      - name: "Griffin Schultz"
         role: "Lead Marketer"
         image: assets/img/team/2.jpg
         social:
@@ -131,7 +131,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "Email us at spacecitytech.org@gmail.com"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
