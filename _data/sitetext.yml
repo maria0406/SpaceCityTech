@@ -109,7 +109,7 @@ en: &DEFAULT_EN
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Griffin Schultz"
-        role: "Chief operations officer"
+        role: "Chief Operations Officer"
         image: assets\img\team\gdog.jpg
         social:
           - url: https://twitter.com
@@ -118,9 +118,9 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
+      - name: "Yoshitaka Ren"
+        role: "Chief Financial Officer"
+        image: assets\img\team\Yoshi.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
