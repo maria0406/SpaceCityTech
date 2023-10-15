@@ -104,8 +104,6 @@ en: &DEFAULT_EN
         social:
           - url: https://twitter.com/_mariacruz4
             icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
           - url: https://www.linkedin.com/in/maria-cruz-34aa97257/
             icon: fab fa-linkedin-in
       - name: "Griffin Schultz"
@@ -114,8 +112,6 @@ en: &DEFAULT_EN
         social:
           - url: https://twitter.com/gschultz167
             icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Yoshitaka Ren"
@@ -124,8 +120,6 @@ en: &DEFAULT_EN
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
 
