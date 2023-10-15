@@ -82,10 +82,10 @@ en: &DEFAULT_EN
       - title: "envato"
         url: https://www.ashoka.org/en-us/program/ashoka-changemakers
         logo: assets\img\clients\ashoka.png
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
+      - title: "Ashoka"
+        url: assets\img\clients\T-Mobile.png
         logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
+      - title: "T-Mobile"
         url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/themeforest.jpg
       - title: "Creative Market"
