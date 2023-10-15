@@ -100,7 +100,7 @@ en: &DEFAULT_EN
     people:
       - name: "Maria Cruz"
         role: "Founder"
-        image: assets\img\team\Maria-Cruz(1).jpg"
+        image: assets\img\team\Maria-Cruz(1).jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -109,8 +109,8 @@ en: &DEFAULT_EN
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Griffin Schultz"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
+        role: "Chief operations officer"
+        image: assets\img\team\gdog.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
