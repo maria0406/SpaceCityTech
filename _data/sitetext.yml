@@ -83,8 +83,8 @@ en: &DEFAULT_EN
         url: https://www.ashoka.org/en-us/program/ashoka-changemakers
         logo: assets\img\clients\ashoka.png
       - title: "Ashoka"
-        url: assets\img\clients\T-Mobile.png
-        logo: assets/img/clients/designmodo.jpg
+        url: https://www.t-mobile.com/business/education/project-10-million
+        logo: assets\img\clients\T-Mobile.png
       - title: "T-Mobile"
         url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/themeforest.jpg
