@@ -99,20 +99,20 @@ en: &DEFAULT_EN
     section: team
     people:
       - name: "Maria Cruz"
-        role: "Founder"
+        role: "Founder-CEO"
         image: assets\img\team\Maria-Cruz(1).jpg
         social:
-          - url: https://twitter.com
+          - url: https://twitter.com/_mariacruz4
             icon: fab fa-twitter
           - url: https://facebook.com
             icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: https://www.linkedin.com/in/maria-cruz-34aa97257/
             icon: fab fa-linkedin-in
       - name: "Griffin Schultz"
         role: "Chief Operations Officer"
         image: assets\img\team\gdog.jpg
         social:
-          - url: https://twitter.com
+          - url: https://twitter.com/gschultz167
             icon: fab fa-twitter
           - url: https://facebook.com
             icon: fab fa-facebook-f
@@ -147,15 +147,11 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
+      - url: https://twitter.com/Space_City_Tech
         icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
       - url: https://linkedin.com
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
+      - url: https://www.instagram.com/spacecity.tech/
         icon: "fab fa-instagram"
 en-US:
   <<: *DEFAULT_EN
