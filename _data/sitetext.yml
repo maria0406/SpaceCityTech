@@ -61,10 +61,8 @@ en: &DEFAULT_EN
         alt: image alt text
       - title: "SCT Laptop Scholarship Opportunity"
         year: "2024"
-        desc: "The Laptop Scholarship Opportunity is founded in the spirit of giving back to the community we serve by enabling them in the pursuit of higher education."
+        desc: "The Laptop Scholarship Opportunity is founded in the spirit of giving back to the community we serve by enabling them in the pursuit of higher education. Check out our instagram for more information!"
         image: assets/img/timeline/sct_laptop.png
-        url: https://forms.gle/C3bgjpNzi5ZExQz98
-        alt: image alt text
         # you can enforce the alignment
         align: right
     end: "Be Part <br> of Our <br> Story!"
