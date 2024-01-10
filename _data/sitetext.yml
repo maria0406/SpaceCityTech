@@ -111,7 +111,7 @@ en: &DEFAULT_EN
         social:
           - url: https://twitter.com/gschultz167
             icon: fab fa-twitter
-          - url: https://linkedin.com
+          - url: https://www.linkedin.com/in/griffin-schultz-770b12185/
             icon: fab fa-linkedin-in
       - name: "Yoshitaka Ren"
         role: "Chief Financial Officer"
